@@ -18,7 +18,7 @@ connectDB();
 
 // Add CORS middleware
 app.use(cors({
-    origin: ['http://localhost:4200'], // Allow requests from multiple origins
+    origin: ['http://localhost:4200', 'https://portfoliobe2025.up.railway.app'], // Allow requests from multiple origins
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true // Allow credentials if needed
   }));
